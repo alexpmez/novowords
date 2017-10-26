@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'libre_franklinmedium';
+  src: url('librefranklin-medium-webfont.eot');
+  src: url('librefranklin-medium-webfont.eot?#iefix') format('embedded-opentype'),
+       url('librefranklin-medium-webfont.woff2') format('woff2'),
+       url('librefranklin-medium-webfont.woff') format('woff'),
+       url('librefranklin-medium-webfont.ttf') format('truetype'),
+       url('librefranklin-medium-webfont.svg#libre_franklinmedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

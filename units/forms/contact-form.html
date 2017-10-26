@@ -1,0 +1,31 @@
+  <h2 class="ui header header-2">Contact form</h2>
+  <div class="ui tiny form">
+  	<div id="form-messages"></div>
+  	<form id="ajax-contact" method="post" action="units/forms/forms.php">
+
+	    <div class="ui left icon input field user">
+	    	<input type="text" id="name" name="name" placeholder="Name" required>
+	      <i class="user icon"></i>
+	    </div>
+
+	    <div class="ui left icon input field mail">
+	    	<input type="email" id="email" name="email" placeholder="Email" required>
+	      <i class="mail icon"></i>
+	    </div>
+
+	    <div class="ui left icon input field textarea">
+	      <textarea id="message" name="message" placeholder="Message" required></textarea>
+	      <i class="write icon"></i>
+	    </div>
+
+		  <div class="ui left icon input field call">
+	      <input id="phone" name="phone" placeholder="Phone Number" type="text">
+	      <i class="call icon"></i>
+	    </div>
+
+	    <button type="submit" class="ui huge primary button">Submit<i class="angle right icon"></i></button>
+
+	   	</form>
+  </div>
+
+  <div class="ui fitted divider"></div>

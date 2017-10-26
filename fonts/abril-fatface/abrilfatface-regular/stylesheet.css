@@ -1,0 +1,11 @@
+font-face {
+  font-family: 'abrilfatface-regular';
+  src: url('abrilfatface-regular-webfont.eot');
+  src: url('abrilfatface-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('abrilfatface-regular-webfont.woff2') format('woff2'),
+       url('abrilfatface-regular-webfont.woff') format('woff'),
+       url('abrilfatface-regular-webfont.ttf') format('truetype'),
+       url('abrilfatface-regular-webfont.svg#abrilfatface-regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

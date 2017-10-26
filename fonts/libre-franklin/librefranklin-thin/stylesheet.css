@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'libre_franklinthin';
+  src: url('librefranklin-thin-webfont.eot');
+  src: url('librefranklin-thin-webfont.eot?#iefix') format('embedded-opentype'),
+       url('librefranklin-thin-webfont.woff2') format('woff2'),
+       url('librefranklin-thin-webfont.woff') format('woff'),
+       url('librefranklin-thin-webfont.ttf') format('truetype'),
+       url('librefranklin-thin-webfont.svg#libre_franklinthin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

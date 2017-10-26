@@ -1,0 +1,275 @@
+.about .section-5 {
+  background-color: rgb(244, 247, 249);
+}
+
+.about .section-5 h3 {
+  font-family: "merriweatherregular", serif;
+}
+
+
+.about .section-5 .ui.fitted.divider {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 30%;
+}
+
+.about .section-5 .ui.stackable.four.column {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1rem;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  padding-top: 1rem;
+}
+
+@media (min-width: 600px) {
+  .about .section-5 .ui.stackable.four.column {
+    padding-bottom: 1rem;
+  }
+}
+
+@media (min-width: 700px) {
+  .about .section-5 .ui.stackable.four.column {
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+  }
+}
+
+@media (min-width: 1160px) {
+  .about .section-5 .ui.stackable.four.column {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+}
+
+.about .section-5 .ui.stackable.four.column .column {
+  padding-bottom: .5rem !important;
+  padding-left: .5rem !important;
+  padding-right: .5rem !important;
+  padding-top: 0 !important;
+}
+
+@media (min-width: 550px) {
+  .about .section-5 .ui.stackable.four.column .column {
+    padding-left: .7rem !important;
+    padding-right: .7rem !important;
+  }
+}
+
+.about .section-5 .ui.card .items {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ui.small.image, .ui.small.images .image, .ui.small.images img, .ui.small.images svg {
+  width: 100%;
+}
+
+.about .section-5 .ui.card h3 {
+  margin-bottom: .5rem;
+}
+
+.about .section-5 .ui.card h2 {
+  text-transform: uppercase;
+  color: rgb(91, 141, 219);
+  font-size: .9rem;
+  margin-top: 0;
+  letter-spacing: .5px;
+}
+
+
+/* .about .section-5 .ui.card .items.item-1 {
+  background-color: red;
+}
+
+.about .section-5 .ui.card .items.item-2 {
+  background-color: blue;
+} */
+
+/*Rollover js home icon section*/
+.icons-section-backgs-roll-over {
+  background-color: rgb(255, 255, 255);
+}
+
+.icons-section-buttons-roll-over {
+  background-color: rgb(30, 30, 37) !important;
+  border-color: rgb(30, 30, 37) !important;
+}
+
+.icons-section-icon-roll-over {
+  color: rgb(30, 30, 37) !important;
+}
+/*Rollover js home icon section END*/
+
+.about .section-5 .stackable.four.column .column {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  min-width: 250px;
+}
+
+@media (min-width: 550px) {
+  .about .section-5 .stackable.four.column .column {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 50%;
+    width: 50%;
+  }
+}
+
+@media (min-width: 850px) {
+  .about .section-5 .stackable.four.column .column {
+    min-width: 200px;
+    width: 25%;
+  }
+}
+
+.about .section-5 .ui.card {
+  float: left;
+}
+
+.about .section-5 .ui.card, .about .section-5 .ui.cards>.card {
+  box-shadow: none !important;
+  width: 100%;
+  background-color: transparent;
+}
+
+.about .section-5 .ui.card>.content, .about .section-5 .ui.cards>.card>.content {
+  border-top: none;
+  padding: 1rem 0 2rem 0;
+}
+
+.about .section-5 .ui.card .meta, .ui.cards>.card .meta {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 230px;
+}
+
+/*.about .section-5 .ui.card .icon {
+  color: rgb(91, 141, 219);
+  font-size: 3rem;
+  padding-bottom: 2rem;
+  padding-top: 0;
+}
+
+@media (min-width: 500px) {
+  .about .section-5 .ui.card .icon {
+    font-size: 4rem;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+  }
+}
+
+@media (min-width: 850px) {
+  .about .section-5 .ui.card .icon {
+    padding-bottom: 0rem;
+    padding-top: 3rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .about .section-5 .ui.card .icon {
+    padding-bottom: 0;
+    padding-top: 3rem;
+  }
+}*/
+
+.about .section-5 .ui.card .ui.ribbon.label {
+  background-color: rgb(91, 141, 219) !important;
+  padding-left: .8rem;
+  letter-spacing: .06rem;
+  font-weight: normal;
+}
+
+.ui.blue.ribbon.label {
+  border-color: rgb(76, 117, 181) !important;
+}
+
+.ui.modal>.close {
+  top: 1.0535rem;
+  right: 1rem;
+  color: rgba(0,0,0,.87);
+}
+
+.about .section-5 .ui.card p, .about .section-5 .ui.cards>.card p {
+  padding-top: 1rem;
+  line-height: 1.5rem;
+}
+
+.about .section-5 .ui.card h3, .about .section-5 .ui.cards>.card h3 {
+  color: rgb(89, 90, 110);
+  letter-spacing: 1px;
+}
+
+.ui.modal .ui.medium.image, .ui.modal .ui.medium.images .image, .ui.modal .ui.medium.images img, .ui.modal .ui.medium.images svg {
+  min-width: 150px;
+}
+
+@media only screen and (max-width: 500px) {
+  .ui.modal .content>.image {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto!important;
+    text-align: center;
+    padding: 0 0 1rem!important;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .ui.modal .content>.image {
+    display: block;
+    max-width: 40%;
+    margin: 0 auto!important;
+    text-align: center;
+    padding: 0 0 1rem!important;
+  }
+}
+
+.ui.modal .header.name {
+  font-family: "merriweatherregular", serif;
+  font-size: 1.5em;
+  color: rgb(89, 90, 110);
+  letter-spacing: 1px;
+}
+
+.ui.modal .ui.header {
+  text-transform: uppercase;
+  color: rgb(91, 141, 219);
+  font-size: 1rem;
+  margin-top: 0;
+  letter-spacing: .5px;
+}
+
+.ui.modal .ui.info p {
+  font-size: 1em;
+  color: rgba(0,0,0,.4);
+}
+
+.about .section-5 .ui.card .button {
+  background-color: rgb(91, 141, 219);
+  color: rgb(255, 255, 255);
+  display: block;
+  font-family: "OpenSans",sans-serif;
+  font-size: .9rem;
+  font-weight: normal;
+  letter-spacing: 0.05rem;
+  margin: .9rem auto 2rem auto;
+  padding-bottom: 1.2rem;
+  padding-top: 1.2rem;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.about .section-5 .ui.card .button:focus {
+  background-color: rgb(30, 30, 37);
+  border-color: rgb(30, 30, 37);
+}
+
+.about .section-5 .ui.card .button:visited {
+  background-color: rgb(30, 30, 37);
+  border-color: rgb(30, 30, 37);
+}
+
+.about .section-5 .ui.card .button:active {
+  background-color: rgb(30, 30, 37);
+  border-color: rgb(30, 30, 37);
+}

@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'libre_franklinextralight';
+  src: url('librefranklin-extralight-webfont.eot');
+  src: url('librefranklin-extralight-webfont.eot?#iefix') format('embedded-opentype'),
+       url('librefranklin-extralight-webfont.woff2') format('woff2'),
+       url('librefranklin-extralight-webfont.woff') format('woff'),
+       url('librefranklin-extralight-webfont.ttf') format('truetype'),
+       url('librefranklin-extralight-webfont.svg#libre_franklinextralight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,27 @@
+.success {
+  margin-bottom: 1.1rem;
+  color: #0d540e;
+  background-color: #dff0d8;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 1rem .5rem 1rem .5rem;
+  letter-spacing: .05rem;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.error {
+  padding: 1em;
+  margin-bottom: 0.75rem;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #b94a48;
+  background-color: #f2dede;
+  border: 1px solid rgba(185, 74, 72, 0.3);
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}

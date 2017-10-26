@@ -1,0 +1,116 @@
+@import url("fonts.css");
+@import url("../lib/semantic-UI/semantic.min.css");
+@import url("../lib/semantic-UI/components/icon.min.css");
+@import url("../css/units/header.css");
+@import url("../css/units/header-main-section.css");
+@import url("../css/units/header.css");
+@import url("../css/units/footer.css");
+@import url("../css/form.css");
+
+body, html {
+  height: auto;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-family: "OpenSans", sans-serif;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+  text-align: center;
+  background: url(../images/slide-4.jpg);
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: initial;
+  font-size: 1.1rem !important;
+}
+
+@media (min-width: 1000px) {
+  body {
+    background-size: cover;
+  }
+}
+
+.services .background {
+  background: url(../images/slide-5.jpg);
+}
+
+.services > .background, .services > .background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: initial;
+  z-index: -2;
+}
+
+@media (min-width: 1000px) {
+  .services > .background, .services > .background {
+    background-size: cover;
+  }
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute !important;
+  z-index: 0;
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1 0 auto;
+}
+
+.loading-section {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+/*=========== Sections Size ============ */
+.second-menu .column, .header.ui .first-menu, .section-4 .column {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1100px;
+}
+
+.displaySect {
+  display: block !important;
+}
+
+.hideSect {
+  display: none;
+}
+
+/*.main-sections {
+  display: none;
+}*/
+
+.icons-and-copy {
+  cursor: pointer;
+}
+
+/*Rollover js icons and copy together*/
+.icons-and-copy-roll-over {
+  color: rgb(91, 141, 219);
+}
+
+.icons-and-copy-roll-over a {
+  color: rgb(91, 141, 219);
+}

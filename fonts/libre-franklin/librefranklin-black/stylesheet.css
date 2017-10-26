@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'libre_franklinblack';
+  src: url('librefranklin-black-webfont.eot');
+  src: url('librefranklin-black-webfont.eot?#iefix') format('embedded-opentype'),
+       url('librefranklin-black-webfont.woff2') format('woff2'),
+       url('librefranklin-black-webfont.woff') format('woff'),
+       url('librefranklin-black-webfont.ttf') format('truetype'),
+       url('librefranklin-black-webfont.svg#libre_franklinblack') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

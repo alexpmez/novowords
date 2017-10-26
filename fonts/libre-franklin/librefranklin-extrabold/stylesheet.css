@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'libre_franklinextrabold';
+  src: url('librefranklin-extrabold-webfont.eot');
+  src: url('librefranklin-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('librefranklin-extrabold-webfont.woff2') format('woff2'),
+       url('librefranklin-extrabold-webfont.woff') format('woff'),
+       url('librefranklin-extrabold-webfont.ttf') format('truetype'),
+       url('librefranklin-extrabold-webfont.svg#libre_franklinextrabold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
